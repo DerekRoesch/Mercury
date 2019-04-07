@@ -1,0 +1,3 @@
+bool start
+string serverAddress
+uint32 serverPort

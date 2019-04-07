@@ -1,0 +1,8 @@
+prefix=/home/derekroesch/catkin_ws/Compilable Mercury Mar26/devel
+
+Name: control
+Description: Description of control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/derekroesch/catkin_ws/Compilable Mercury Mar26/devel/lib 
+Requires: roscpp rospy std_msgs msgs_and_srvs hw_interface_plugin_dynamixel

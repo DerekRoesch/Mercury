@@ -1,0 +1,9 @@
+<!-- this launch file simply loads the each plugins' launch file -->
+
+<launch>
+
+    <include file="$(find hw_interface_plugin_dynamixel)/launch/Dynamixel_Serial.launch" />
+    <include file="$(find hw_interface_plugin_agent)/launch/Agent_Interface.launch" />
+    <include file="$(find hw_interface_plugin_arm)/launch/Arm_Serial_Interface.launch" />
+
+</launch>

@@ -1,0 +1,19 @@
+plugin_names:
+    {
+        arm_serial : hw_interface_plugin_arm,
+    }
+
+arm_serial:
+    {
+        arm1 : arm1,
+    }
+
+arm1:
+    {
+        deviceName         : "/dev/ttyACM0",
+        baudrate           : 115200,
+        subscribeToLOSTopic: "/arm/LOS",
+        subscribeToPosTopic: "/arm/position",
+        armUpdate_ms   : 500,
+    }
+

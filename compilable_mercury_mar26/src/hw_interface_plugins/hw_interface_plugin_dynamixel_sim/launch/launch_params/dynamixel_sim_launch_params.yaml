@@ -1,0 +1,21 @@
+plugin_names: 
+    {
+        dynamixel_serial : hw_interface_plugin_dynamixel,
+    }
+    
+dynamixel_serial:
+    {
+        dynamixel_test : dynamixel_test,
+    }
+    
+dynamixel_test:
+    {
+        subscribeToTopic        : "/servo/get",
+        publishToTopic          : "/servo/test",
+        baudrate                : 1000000,
+        deviceName              : "/dev/ttyUSB0",
+        responseTimeout         : 50,
+        maxScanID               : 10,
+    }
+
+

@@ -1,0 +1,3 @@
+bool pointInsideBumper
+float32 closestPointDistance
+float32 closestPointDirection

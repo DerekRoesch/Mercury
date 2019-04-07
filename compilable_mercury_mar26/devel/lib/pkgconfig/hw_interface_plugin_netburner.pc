@@ -1,0 +1,8 @@
+prefix=/home/derekroesch/catkin_ws/Compilable Mercury Mar26/devel
+
+Name: hw_interface_plugin_netburner
+Description: Description of hw_interface_plugin_netburner
+Version: 0.0.0
+Cflags: -I/home/derekroesch/catkin_ws/Compilable Mercury Mar26/src/hw_interface_plugins/hw_interface_plugin_netburner/include
+Libs: -L/home/derekroesch/catkin_ws/Compilable Mercury Mar26/devel/lib -lhw_interface_plugin_netburner
+Requires: hw_interface pluginlib roscpp

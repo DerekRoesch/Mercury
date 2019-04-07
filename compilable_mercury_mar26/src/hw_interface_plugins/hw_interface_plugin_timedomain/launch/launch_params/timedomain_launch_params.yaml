@@ -1,0 +1,25 @@
+plugin_names:
+    {
+        timedomain_serial : hw_interface_plugin_timedomain,
+    }
+
+timedomain_serial:
+    {
+        id104 : id104,
+    }
+
+id104:
+    {
+        deviceName         : "/dev/ttyACM0",
+        baudrate           : 115200,
+        subscribeToTopic   : "/radio0/cmd",
+        publishToTopic     : "/radio0/data",
+    }
+
+id105:
+    {
+        deviceName         : "/dev/ttyACM1",
+        baudrate           : 115200,
+        subscribeToTopic   : "/radio1/cmd",
+        publishToTopic     : "/radio1/data",
+    }

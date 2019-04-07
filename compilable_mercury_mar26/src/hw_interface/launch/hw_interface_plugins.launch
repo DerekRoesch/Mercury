@@ -1,0 +1,8 @@
+<!-- this launch file simply loads the each plugins' launch file -->
+
+<launch>
+
+    <include file="$(find hw_interface_plugin_dynamixel)/launch/Dynamixel_Serial.launch" />
+
+
+</launch>q

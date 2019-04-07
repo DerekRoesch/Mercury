@@ -1,0 +1,21 @@
+plugin_names: 
+    {
+        netburner_UDP : hw_interface_plugin_netburner,
+    }
+    
+netburner_UDP:
+    {
+        NB1_UDP : NB1_UDP,
+    }
+    
+NB1_UDP:
+    {
+        subscribeToTopic       : "",
+        publishToTopic          : "hw_interface/nb1in/nb1in",
+        remoteAddress           : "10.10.10.23",
+        remotePort              : 9001,
+        localPort               : 9003,
+        checksumType            : "not-full-message-sum",
+    }
+
+

@@ -1,0 +1,2 @@
+bool manualMode
+string selectedJoint

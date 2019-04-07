@@ -1,0 +1,5 @@
+<library path="lib/libhw_interface_plugin_dynamixel_serial_sim">
+  <class type="hw_interface_plugin_dynamixel_serial_sim::dynamixel_sim_serial" base_class_type="base_classes::base_interface">
+    <description>Dynamixel Servo Interface</description>
+  </class>
+</library>

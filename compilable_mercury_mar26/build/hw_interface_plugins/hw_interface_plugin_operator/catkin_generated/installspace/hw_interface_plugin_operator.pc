@@ -1,0 +1,8 @@
+prefix=/home/derekroesch/catkin_ws/Compilable Mercury Mar26/install
+
+Name: hw_interface_plugin_operator
+Description: Description of hw_interface_plugin_operator
+Version: 0.0.0
+Cflags: -I/home/derekroesch/catkin_ws/Compilable Mercury Mar26/install/include
+Libs: -L/home/derekroesch/catkin_ws/Compilable Mercury Mar26/install/lib -lhw_interface_plugin_operator
+Requires: hw_interface pluginlib roscpp topic_tools msgs_and_srvs
