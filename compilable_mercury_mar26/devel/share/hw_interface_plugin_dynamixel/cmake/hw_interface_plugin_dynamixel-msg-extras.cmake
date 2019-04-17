@@ -1,2 +1,0 @@
-set(hw_interface_plugin_dynamixel_MESSAGE_FILES "/home/derekroesch/catkin_ws/Compilable Mercury Mar26/src/hw_interface_plugins/hw_interface_plugin_dynamixel/msg/servoUpdate.msg;/home/derekroesch/catkin_ws/Compilable Mercury Mar26/src/hw_interface_plugins/hw_interface_plugin_dynamixel/msg/groupServoUpdate.msg;/home/derekroesch/catkin_ws/Compilable Mercury Mar26/src/hw_interface_plugins/hw_interface_plugin_dynamixel/msg/servoStateResponse.msg")
-set(hw_interface_plugin_dynamixel_SERVICE_FILES "")

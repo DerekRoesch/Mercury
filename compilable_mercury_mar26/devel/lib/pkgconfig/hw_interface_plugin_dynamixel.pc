@@ -1,8 +1,0 @@
-prefix=/home/derekroesch/catkin_ws/Compilable Mercury Mar26/devel
-
-Name: hw_interface_plugin_dynamixel
-Description: Description of hw_interface_plugin_dynamixel
-Version: 0.0.1
-Cflags: -I/home/derekroesch/catkin_ws/Compilable Mercury Mar26/devel/include -I/home/derekroesch/catkin_ws/Compilable Mercury Mar26/src/hw_interface_plugins/hw_interface_plugin_dynamixel/include
-Libs: -L/home/derekroesch/catkin_ws/Compilable Mercury Mar26/devel/lib -lhw_interface_plugin_dynamixel
-Requires: hw_interface message_generation message_runtime pluginlib roscpp std_msgs

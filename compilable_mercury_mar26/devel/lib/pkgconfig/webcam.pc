@@ -1,8 +1,0 @@
-prefix=/home/derekroesch/catkin_ws/Compilable Mercury Mar26/devel
-
-Name: webcam
-Description: Description of webcam
-Version: 0.0.0
-Cflags: -I/home/derekroesch/catkin_ws/Compilable Mercury Mar26/src/webcam/include
-Libs: -L/home/derekroesch/catkin_ws/Compilable Mercury Mar26/devel/lib 
-Requires: roscpp rospy

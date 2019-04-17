@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/derekroesch/catkin_ws/src/hw_interface_plugins/hw_interface_plugin_dynamixel/include/hw_interface_plugin_dynamixel/dynamixel_servo_group.hpp
+
+/home/derekroesch/catkin_ws/src/hw_interface_plugins/hw_interface_plugin_dynamixel/src/dynamixel_servo_group.cpp
+hw_interface_plugin_dynamixel/dynamixel_servo_group.hpp
+-
+

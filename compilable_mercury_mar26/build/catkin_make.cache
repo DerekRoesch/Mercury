@@ -1,2 +1,0 @@
-command:control:hw_interface:hw_interface_plugins/hw_interface_plugin_agent:hw_interface_plugins/hw_interface_plugin_arm:hw_interface_plugins/hw_interface_plugin_dynamixel:hw_interface_plugins/hw_interface_plugin_netburner:hw_interface_plugins/hw_interface_plugin_operator:lidar:msgs_and_srvs:webcam
--DCATKIN_DEVEL_PREFIX=/home/derekroesch/catkin_ws/Compilable Mercury Mar26/devel -DCMAKE_INSTALL_PREFIX=/home/derekroesch/catkin_ws/Compilable Mercury Mar26/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/derekroesch/catkin_ws/install
+
+Name: hw_interface
+Description: Description of hw_interface
+Version: 0.0.1
+Cflags: -I/home/derekroesch/catkin_ws/install/include
+Libs: -L/home/derekroesch/catkin_ws/install/lib -lhw_interface -lbase_interface -lbase_serial_interface -lbase_UDP_interface
+Requires: roscpp pluginlib

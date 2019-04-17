@@ -1,0 +1,39 @@
+plugin_names: 
+    {
+        dynamixel_serial : hw_interface_plugin_dynamixel,
+    }
+    
+dynamixel_serial:
+    {
+        dynamixel_test0 : dynamixel_test0,
+        dynamixel_test1 : dynamixel_test1,
+        dynamixel_test2 : dynamixel_test2,
+    }
+ 
+dynamixel_test0:
+    {
+        subscribeToTopic        : "/servo/get",
+        publishToTopic          : "/servo/test",
+        baudrate                : 1000000,
+        deviceName              : "/dev/dynamixelBus0",
+        responseTimeout         : 500,
+        maxScanID               : 10,
+    } 
+dynamixel_test1:
+    {
+        subscribeToTopic        : "/servo/get",
+        publishToTopic          : "/servo/test",
+        baudrate                : 1000000,
+        deviceName              : "/dev/dynamixelBus1",
+        responseTimeout         : 500,
+        maxScanID               : 10,
+    } 
+dynamixel_test2:
+    {
+        subscribeToTopic        : "/servo/get",
+        publishToTopic          : "/servo/test",
+        baudrate                : 1000000,
+        deviceName              : "/dev/dynamixelBus2",
+        responseTimeout         : 500,
+        maxScanID               : 10,
+    } 
